@@ -1,0 +1,115 @@
+
+circle {
+    fill-opacity: 0;
+    stroke-width: 2;
+    stroke-opacity: 1;
+}
+.order-circle {
+  stroke: #FFC107;
+}
+.signup-circle {
+  stroke: #e2c1fb;
+}
+.svg-map-container {
+  background-image: url('../../assets/images/map.svg');
+  min-height: 856px;
+  // width: 1280px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  transform-origin: 0 0 ;
+}
+.canvas {
+  position: absolute;
+}
+.svg-warehouse {
+  position: absolute;
+  fill: white;
+}
+.legend {
+    bottom: 0;
+    width: 200px;
+    height: 150px;
+    left: 0px;
+    position: absolute;
+    .legend-text {
+      fill: white;
+    }
+}
+.bottom-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 1280px;
+  height: 53px;
+  rect {
+    opacity: 0.3;
+  }
+  tspan {
+    font-weight: 600;
+    alignment-baseline: middle;
+  }
+}
+.bottom-txt {
+  fill: white;
+  opacity: 1;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 200;
+  padding: 16px 0 16px 0;
+  .date {
+    font-size: 14px;
+    span:first-child {
+      font-size: 14px;
+      padding-right: 8px;
+      font-weight: 500;
+    }
+  }
+}
+mat-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 2%;
+  right: 1%;
+  color: white;
+}
+.full-screen {
+  background-size: cover;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.map-background {
+  background-image: url('../../assets/images/salesmap-bg.svg');
+  background-repeat: no-repeat;
+}
+.icon-full-screen {
+  position: fixed;
+  top: 3%;
+  right: 1%;
+}
+.full-screen-header {
+  position: absolute;
+  width: 96%;
+  color: white;
+  top: 0;
+  left: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  img {
+    width: 125px;
+    height: 47px;
+  }
+}
+.compress {
+  position: absolute;
+  top: 3%;
+  right:1%;
+}
